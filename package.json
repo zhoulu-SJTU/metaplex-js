@@ -1,0 +1,22 @@
+{
+  "name": "metaplex-js",
+  "version": "1.0.0",
+  "description": "js library for metaplex",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "tsc && node dist/main.js"
+  },
+  "author": "zhoulu",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.11.10",
+    "tslint": "^6.1.3",
+    "typescript": "^4.5.2",
+    "@solana/web3.js": "^1.21.0",
+    "bn.js": "^5.1.0",
+    "buffer": "6.0.3",
+    "buffer-layout": "^1.2.0"
+  }
+}
